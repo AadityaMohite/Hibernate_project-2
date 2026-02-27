@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "https://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+        
+        
+        <hibernate-configuration>
+        
+     <session-factory>
+      <!-- hibernate dialect specifyes which database used -->
+     
+     <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property> 
+     <property name="hibernate.connection.driver-class-name">com.mysql.cj.jdbc.Driver</property>
+     <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/EmployeeManagement</property>
+     <property name="hibernate.connection.username">root</property>
+     <property name="hibernate.connection.password">141220</property>
+     <property name="hibernate.hbm2ddl.auto">update</property>
+     <property name="hibernate.show.sql">true</property>
+     <mapping class="com.entity.User"/>
+     
+    
+     
+     </session-factory>
+        
+        
+        </hibernate-configuration>
