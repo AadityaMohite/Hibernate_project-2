@@ -16,7 +16,7 @@
      <property name="hibernate.connection.password">141220</property>
      <property name="hibernate.hbm2ddl.auto">update</property>
      <property name="hibernate.show.sql">true</property>
-     <mapping class="com.entity.User"/>
+     <mapping class="com.entity.Employee"/>
      
     
      
